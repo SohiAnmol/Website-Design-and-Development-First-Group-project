@@ -1,0 +1,240 @@
+                                body {
+                                    padding: 0;
+                                    margin: 0;
+                                    font-family: Arial, Helvetica, sans-serif;
+                                    background-color: var(--body);
+                                }
+                                
+                                a {
+                                    text-decoration: none;
+                                }
+                                
+                                .nav {
+                                    background-color: var(--primary);
+                                    padding: 20px 0px;
+                                    max-height: 8vh;
+                                    width: 100%;
+                                }
+                                
+                                .web-logo a #logo {
+                                    height: 5vh;
+                                    width: 5vh;
+                                    padding-left: 10px;
+                                }
+                                
+                                .web-logo a label {
+                                    margin-left: 0.5rem;
+                                    font-size: 0.9em;
+                                    color: #f4ac45;
+                                }
+                                
+                                .nav-btn a {
+                                    color: white;
+                                    margin: 0px 10px;
+                                    font-size: 1rem;
+                                    font-weight: 200;
+                                }
+                                
+                                .cover {
+                                    background-color: var(--primary);
+                                    display: flex;
+                                }
+                                
+                                #app-cover {
+                                    width: 30%;
+                                }
+                                
+                                .content h3 {
+                                    margin-left: 10px;
+                                    color: #694A38;
+                                }
+                                
+                                .recommend {
+                                    background-color: rgb(255, 255, 255);
+                                    padding: 30px 10px;
+                                    display: flex;
+                                    justify-content: space-around;
+                                }
+                                
+                                .product-card {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: flex-end;
+                                    align-items: space-around;
+                                    width: 10vw;
+                                    max-width: 25%;
+                                    border-radius: 5px;
+                                    height: 200px;
+                                }
+                                
+                                .product-card .product-img {
+                                    width: 100%;
+                                    border-radius: 5px;
+                                }
+                                
+                                .product-card label {
+                                    color: var(--txtcolor);
+                                    font-size: 0.8rem;
+                                    padding: 10px 0px;
+                                }
+                                
+                                .product-card div {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: baseline;
+                                }
+                                
+                                .product-card div label s {
+                                    color: #a0a0a0;
+                                    font-size: 10px;
+                                }
+                                
+                                .product-card div label {
+                                    color: #F4AC45;
+                                }
+                                
+                                .product-card div button {
+                                    border: none;
+                                    background-color: #92BFB1;
+                                    color: white;
+                                    font-size: 10px;
+                                    height: 20px;
+                                    border-radius: 10px 0px 0px 10px;
+                                }
+                                
+                                .btm-nav {
+                                    background-color: var(--primary);
+                                }
+                                
+                                .btm-nav div {
+                                    padding: 10px 30%;
+                                    display: flex;
+                                    justify-content: space-around;
+                                    align-items: center;
+                                }
+                                
+                                .btm-nav div a {
+                                    margin-top: 10px;
+                                    color: #f8bc69;
+                                }
+                                
+                                form input {
+                                    width: 80%;
+                                    height: 40px;
+                                    border: solid 1px #694A38;
+                                    outline: none;
+                                    margin-top: 10px;
+                                }
+                                
+                                form textarea {
+                                    margin-top: 20px;
+                                    width: 80%;
+                                    height: 90px;
+                                }
+                                
+                                form button {
+                                    border: none;
+                                    background-color: #92BFB1;
+                                    color: white;
+                                    height: 40px;
+                                    margin-top: 5px;
+                                    width: 40%;
+                                    border-radius: 5px;
+                                }
+                                
+                                .kiosk {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-around;
+                                    margin: 50px 0px;
+                                }
+                                
+                                .schedule {
+                                    height: 150px;
+                                    width: 55vw;
+                                    background-color: rgb(225, 246, 255);
+                                    border-collapse: collapse;
+                                }
+                                
+                                .schedule td:nth-child(1),
+                                .schedule th:nth-child(1) {
+                                    background-color: rgba(209, 218, 227, 255);
+                                    color: rgb(103, 103, 103);
+                                    font-weight: bold;
+                                }
+                                
+                                .schedule td,
+                                th {
+                                    text-align: center;
+                                    padding: 10px 0px;
+                                }
+                                
+                                .schedule td {
+                                    font-size: 14px;
+                                    color: grey;
+                                }
+                                
+                                .schedule th {
+                                    background-color: rgba(209, 218, 227, 255);
+                                    color: rgb(130, 128, 128);
+                                    padding: 10px 0px;
+                                }
+                                
+                                .schedule tbody tr:nth-child(odd) {
+                                    background-color: rgba(255, 255, 255, 0.332);
+                                }
+                                
+                                .time-table {
+                                    display: flex;
+                                }
+                                
+                                .time-table img {
+                                    height: 150px;
+                                }
+                                
+                                .kiosk-table {
+                                    display: flex;
+                                }
+                                
+                                .kiosk-table img {
+                                    height: 150px;
+                                }
+                                
+                                .kiosk-table div {
+                                    display: flex;
+                                    flex-direction: column;
+                                    margin-left: 20px;
+                                }
+                                
+                                .kiosk-table div p {
+                                    font-size: 20px;
+                                    font-weight: bold;
+                                }
+                                
+                                .kiosk-content {
+                                   display: flex;
+                                   align-items: center;
+                                   justify-content: center;
+                                    height: 70vh;
+                                    margin-bottom: 25px;
+                                    background-size: cover;
+                                    background-position: center;
+                                    background-image: url('https://images.unsplash.com/photo-1441471349424-351990746ff4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+                                }
+
+                                .kiosk-content p{
+                                    height: 100%;
+                                    width: 100%;
+                                    display: grid;
+                                    place-content: center;
+                                    font-family:Comfortaa;
+                                    font-size: 35px;
+                                    text-align: center;
+                                    background-color: rgba(0, 0, 0, 0.479);
+                                    color: white;
+                                }
+                                
+                                footer {
+                                    padding: 20px;
+                                    color: white;
+                                }
